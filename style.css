@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.resetBtn {
+  padding: 10px 32px;
+}
+
+main {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -15px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(148, 37, 6),
+    rgb(60, 47, 35)
+  );
+  padding-bottom: 16px;
+}
+
+li {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  background-color: rgb(66, 65, 65);
+  color: #fff;
+  padding-right: 15px;
+  margin-top: 16px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: solid 3px #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav button {
+  font-size: 25px;
+  width: 60px;
+}
+
+section,
+.daysWorked {
+  font-size: 35px;
+}
+
+footer {
+  flex-direction: column;
+  gap: 5px;
+}
+
+input,
+#concludeBtn {
+  height: 37px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.result-container {
+  font-size: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
