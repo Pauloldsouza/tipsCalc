@@ -95,10 +95,10 @@ finishBtn.addEventListener("click", () => {
   <div class="result-container">
     
     <p>Valor para 1 dia: ${valueForDay.toFixed(2)}€</p>
-    <p>Valor para 2 dias: ${2 * valueForDay.toFixed(2)}€</p>
-    <p>Valor para 3 dias: ${3 * valueForDay.toFixed(2)}€</p>
-    <p>Valor para 4 dias: ${4 * valueForDay.toFixed(2)}€</p>
-    <p>Valor para 5 dias: ${5 * valueForDay.toFixed(2)}€</p>
+    <p>Valor para 2 dias: ${(2 * valueForDay).toFixed(2)}€</p>
+    <p>Valor para 3 dias: ${(3 * valueForDay).toFixed(2)}€</p>
+    <p>Valor para 4 dias: ${(4 * valueForDay).toFixed(2)}€</p>
+    <p>Valor para 5 dias: ${(5 * valueForDay).toFixed(2)}€</p>
     
   </div>
 `;
