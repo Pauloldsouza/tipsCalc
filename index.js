@@ -25,7 +25,7 @@ const staffList = [
   "Paulo",
   "Pawan",
   "Regis",
-  //"Rose",
+  "Rose",
   "Subarna",
   "Sudip",
   "Susmita",
@@ -65,7 +65,7 @@ staffList.forEach((member) => {
   });
 
   sumBtn.addEventListener("click", () => {
-    if (days < 5) {
+    if (days < 6) {
       days += 1;
       spanNumber.textContent = days;
       TotalOfDays += 1;
