@@ -27,6 +27,7 @@ const staffList = [
   "Rose",
   "Subarna",
   "Sudip",
+  "Susmita",
   "Yago",
 ];
 
