@@ -4,7 +4,6 @@ const staffList = [
   "Ali",
   "Ana",
   "Ariana",
-  //"Bijay",
   "Bikash",
   "Carol",
   "Curica",
